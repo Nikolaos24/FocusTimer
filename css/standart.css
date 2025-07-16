@@ -1,0 +1,51 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background: #111; /* oder dein Hintergrundbild */
+  overflow: hidden;
+  font-family: sans-serif;
+  color: white;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.spotlight-container {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+
+.spotlight {
+  position: absolute;
+  width: 1000px;
+  height: 1000px;
+  pointer-events: none;
+  border-radius: 50%;
+  background: radial-gradient(circle, 
+    rgba(255, 255, 255, 0.08) 0%, 
+    rgba(255, 255, 255, 0.04) 30%,
+    rgba(255, 255, 255, 0.01) 60%, 
+    transparent 80%
+  );
+  mix-blend-mode: soft-light;
+  transform: translate(-50%, -50%);
+}
+h1{
+font-size: 80px;
+    text-shadow: 1px 1px 1px #919191,
+
+ 
+}
+
+.main-container{
+  display: flex;
+  max-width: 1920px;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  
+
+
+}
